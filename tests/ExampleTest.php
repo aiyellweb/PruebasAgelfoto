@@ -7,7 +7,7 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 class ExampleTest extends TestCase
 {
 
-    use DatabaseMigrations; // importamos a dentro ExampleTest el treid  DatabaseMigrations para ejucutar siempre nuestra prueba y no falle
+    use DatabaseTransactions; // importamos a dentro ExampleTest el treid  DatabaseTransactions para ejucutar siempre nuestra prueba y no falle
     /**
      * A basic functional test example.
      *
