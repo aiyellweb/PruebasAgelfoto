@@ -5,7 +5,7 @@
 class ExampleTest extends FeatureTestCase
 {
 
-     //use DatabaseTransactions; importamos a dentro ExampleTest el treid  DatabaseTransactions para ejucutar siempre nuestra prueba y no falle
+    
     /**
      * A basic functional test example.
      *
